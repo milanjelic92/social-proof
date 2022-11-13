@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+   
+}
+
+.levo {
+    
+    width: 400px;
+}
+
+.desno {
+    width: 500px;
+}
+.reviews {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 25px 34px 25px 22px;
+    border-radius: 6px;
+    height: 50px;
+    width: 390px;
+    margin-left: -50px;
+    background-color: hsl(300, 24%, 96%);
+}
+.report {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 25px 34px 25px 22px;
+    border-radius: 6px;
+    height: 50px;
+    width: 390px;
+    margin-top: 20px;
+    background-color: hsl(300, 24%, 96%);
+}
+.best-tech {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 25px 34px 25px 22px;
+    border-radius: 6px;
+    height: 50px;
+    width: 390px;
+   
+    
+   
+}
+.star-container {
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.star-paragraph {
+    font-family: League Spartan, sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.star-image {
+    width: 15px;
+    
+}
+h1 {
+    font-family: League Spartan, sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 60px;
+}
+.info-paragraph {
+    font-family: League Spartan, sans-serif;
+    margin-top: 20px;
+    line-height: 1.5;
+    color:  hsl(303, 10%, 53%);
+    font-weight: 500;
+    padding-right: 20px;
+}
